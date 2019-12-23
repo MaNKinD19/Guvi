@@ -1,0 +1,6 @@
+a =int(input("Entert 1st number "))
+if a % 4 == 0:
+  print(a," is leap")
+else:
+  print(a," is not leap")
+      
