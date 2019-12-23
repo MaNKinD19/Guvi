@@ -1,0 +1,7 @@
+a = input("Entert a value ")
+if a.isalpha() == True:
+  print(a," is alphabet")
+else:
+  print(a," is not alphabet")
+      
+ 
