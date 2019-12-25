@@ -1,0 +1,4 @@
+n = 65
+while(n<124):
+  print(chr(n))
+  n = n+1
