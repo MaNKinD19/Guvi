@@ -1,0 +1,12 @@
+n = int(input())
+f = int(input())
+temp = n
+ct = 0
+while(n>0):
+  temp= n % 10
+  if(temp == f):
+    ct = ct +1
+  else:
+    pass
+  n=n//10
+print(f,ct)
