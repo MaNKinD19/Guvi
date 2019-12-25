@@ -1,0 +1,12 @@
+n=int(input("Enter an integer:"))
+temp = n
+p =0
+while(n > 0):
+  a=n%10
+  p = p + pow(3,a)
+ 
+  n=n//10
+if(p == temp):
+  print("Armstrong")
+else:
+  print("No")
