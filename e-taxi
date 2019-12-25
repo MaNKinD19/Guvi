@@ -1,25 +1,31 @@
 unam = "Jayaram"
 pwd = "jay123"
-
+i = 0
 uname1 = str(input("Enter your username "))
 pwd1 = str(input("Enter your password "))
-if(unam == uname1 and pwd == pwd1):
-  print("Valid login")
-else:
-  print("Invalid login")
-  
+while i < 3:
+  if(unam == uname1 and pwd == pwd1):
+    print("Valid login")
+    break
+  else:
+    print("Invalid login")
+i += 1  
 sour = int(input("Enter the source "))
 dest = int(input("Enter the destination "))
 typ = str(input("Enter the type of car "))
 while( typ == "mini" or typ == "sedan" or typ == "xuv" or typ == "premium"):
   if(typ == "mini"):
     cmodel = input("Select your model: 1. indigo 2. indica 3.zen ")
+    break
   elif(typ == "sedan"):
     cmodel = input("Select your model: 1. Dzire 2. city 3.verna ")
+    break
   elif(typ == "xuv"):
     cmodel = input("Select your model: 1. ecosport 2. duster 3.scorpio ")
+    break
   elif(typ == "premium"):
     cmodel = input("Select your model: 1. benz 2. bmw 3.audi ")
+    break
   else:
     print("invalid type")
   
