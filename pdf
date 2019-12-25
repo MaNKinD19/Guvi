@@ -126,3 +126,208 @@ a = p*pow(x,y)
 print("CI: ",a)
 
 19.
+a =int(input("Entert 1st number "))
+b = int(input("Enter 2nd number "))
+if a > b: 
+  print(a," is greater")
+else:
+  print(b," is greater")
+  
+20.
+a =int(input("Entert 1st number "))
+b = int(input("Enter 2nd number "))
+c = int(input("Enter 3rd number "))
+if a > b and a > c: 
+  print(a," is greater")
+elif b > c:
+  print(b," is greater")
+else:
+  print(c," is greater")
+  
+21.
+a =int(input("Entert 1st number "))
+if a > 0:
+  print(a," is positive")
+elif a == 0:
+  print(a," is zero")
+else:
+  print(a," is negative")
+
+
+22.
+a =int(input("Entert 1st number "))
+if a % 55 == 0:
+  print(a," is divisible by 5 and 11")
+else:
+  print(a," is not divisible by 5 and 11")
+
+
+23.
+a =int(input("Entert 1st number "))
+if a % 2 == 0:
+  print(a," is even")
+else:
+  print(a," is odd")
+
+
+24.
+a =int(input("Entert 1st number "))
+if a % 4 == 0:
+  print(a," is leap")
+else:
+  print(a," is not leap")
+  
+
+25.
+a = input("Entert a value ")
+if a.isalpha() == True:
+  print(a," is alphabet")
+else:
+  print(a," is not alphabet")
+  
+26.
+ch = input("Entert a value ")
+ 
+if(ch=='A' or ch=='a' or ch=='E' or ch =='e' or ch=='I'
+ or ch=='i' or ch=='O' or ch=='o' or ch=='U' or ch=='u'):
+    
+    print(ch, "is a Vowel")
+else:
+  print(ch," is not alphabet")
+  
+27.
+ch = input("Please Enter Your Own Character : ")
+
+if((ch >= 'a' and ch <= 'z') or (ch >= 'A' and ch <= 'Z')): 
+    print("The Given Character ", ch, "is an Alphabet") 
+elif(ch >= '0' and ch <= '9'):
+    print("The Given Character ", ch, "is a Digit")
+else:
+    print(ch, "is a Special Character")
+    
+
+28.
+p = input()
+if(p.isupper() == True):
+  print("Uppercase")
+elif(p.islower() == True):
+  print("Lowercase")
+else:
+  pass
+  
+29.
+p = int(input())
+if(p == 1):
+  print("Sunday")
+elif(p == 2):
+  print("TMonday")
+elif(p == 3):
+  print("Tuesday")
+elif(p == 4):
+  print("Wednesday")
+elif(p == 5):
+  print("Thursday")
+elif(p == 6):
+  print("Friday")  
+elif(p == 7):
+  print("Saturday")
+else:
+  print("Invalid")
+  
+ 30.
+p = int(input())
+if(p == 1):
+  print("31")
+elif(p == 2):
+  print("28")
+elif(p == 3):
+  print("31")
+elif(p == 4):
+  print("30")
+elif(p == 5):
+  print("31")
+elif(p == 6):
+  print("30")  
+elif(p == 7):
+  print("31")
+elif(p == 8):
+  print("31")
+elif(p == 9):
+  print("30")
+elif(p == 10):
+  print("31")
+elif(p == 11):
+  print("30")
+elif(p == 12):
+  print("31")
+else:
+  print("Invalid")
+  
+30.
+a = int(input("Enter total amount"))
+c = int(input("Enter the amount of each notes"))
+n = a/c
+print(n)
+
+
+31.
+a = int(input())
+b = int(input())
+c = int(input())
+d = a+b+c
+if(d <= 180):
+  print("Valid")
+else:
+  print("Invalid")
+  
+32.
+a = int(input())
+b = int(input())
+c = int(input())
+if((a+b) > c or (b+c) > a or (a+c) > b ):
+  print("Valid")
+else:
+  print("Invalid")
+
+
+33.
+a = int(input())
+b = int(input())
+c = int(input())
+if(a == b and a == c and b == c ):
+  print("Equilateral Traingle")
+elif((a == b and a!=c) or (a == c and a!=b) or (b==c and b!=a)):
+  print("Isosceles triagles")
+else:
+  print("Scalene Traingle")
+  
+34.
+print("Equation: ax^2 + bx + c ")
+a=int(input("Enter a: "))
+b=int(input("Enter b: "))
+c=int(input("Enter c: "))
+d=b**2-4*a*c
+d1=d**0.5
+if(d<0):
+    print("The roots are imaginary. ")
+else:
+    r1=(-b+d1)/2*a
+    r2=(-b-d1)/2*a
+    print("The first root: ",round(r1,2))
+    print("The second root: ",round(r2,2))
+
+35.
+a = int(input("Enter Actual cost"))
+s = int(input("Enter sales cost"))
+if(a < s):
+  p = s - a
+  print("Profit: ", p)
+elif(a > s):
+  l = a - s
+  print("loss: ", l )
+else:
+  print("No profit and No loss")
+  
+  
+36.
+
