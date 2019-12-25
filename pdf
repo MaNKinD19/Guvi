@@ -330,4 +330,59 @@ else:
   
   
 36.
+s1 = int(input())
+s2 = int(input())
+s3 = int(input())
+s4 = int(input())
+s5 = int(input())
+t= s1+s2+s3+s4+s5
+avg=t/5
+p = (t/500)*100
+if(p >= 90 and p <= 100):
+  print("Grade A")
+elif(p >= 80 and p < 90):
+  print("Grade B")
+elif(p >= 70 and p < 80):
+  print("Grade C")
+elif(p >= 60 and p <700):
+  print("Grade D")
+elif(p >= 40 and p <60):
+  print("Grade E")
+elif( p < 40):
+  print("Grade F")
+else:
+  pass
+  
+37.
+s = int(input())
+if(s <= 10000):
+  hra = s *0.2
+  da = s *0.8
+elif(s <= 20000 and s > 10000):
+  hra = s*0.25
+  da = s*0.9
+else:
+  hra = s*0.3
+  da = s*0.95
+gross = s + hra + da
+print("Salary : ",gross)
+
+
+38.
+s = int(input())
+b1 = 50*0.5
+b2 = 100 * 0.75
+b3 = 100 * 1.20
+if(s<= 50):
+  b = s *0.5
+elif( s > 50 and s <= 150):
+  b = b1+(s-50)*0.75
+elif(s>150 and s<= 250):
+  b = b1+b2+(s-150)*1.20
+else:
+  temp = b1+b2+b3+(s-250)*1.50
+  b = temp+(temp*0.20)
+print("Bill: ",b)
+
+
 
